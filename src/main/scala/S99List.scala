@@ -20,7 +20,7 @@ object S99List {
   def length[T](l: List[T]): Int = l.length
 
   // P05
-  def reverse[T](l: List[T]): List[T] = ???
+  def reverse[T](l: List[T]): List[T] = l.reverse
 
   // P06
   def isPalindrome[T](l: List[T]): Boolean = ???
