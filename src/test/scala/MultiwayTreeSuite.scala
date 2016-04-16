@@ -1,3 +1,4 @@
+/*
 import MTree._
 import org.scalatest.{FunSuite, Matchers}
 
@@ -67,3 +68,4 @@ class MultiwayTreeSuite extends FunSuite with Matchers {
     fromLispyString("(a (f g) c (b d e))") shouldEqual fromString("afg^^c^bd^e^^^")
   }
 }
+*/

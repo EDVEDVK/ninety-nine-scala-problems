@@ -5,13 +5,16 @@
   */
 object S99List {
   // P01
-  def last[T](l: List[T]): T = ???
+  def last[T](l: List[T]): T = l.last
 
   // P02
-  def penultimate[T](l: List[T]): T = ???
+  def penultimate[T](l: List[T]): T = l.dropRight(1).last
 
   // P03
-  def nth[T](pos: Int, l: List[T]): T = ???
+  def nth[T](pos: Int, l: List[T]): T = {
+    if (pos >= 0 && pos < l.length) l(pos)
+    else throw new NoSuchElementException
+  }
 
   // P04
   def length[T](l: List[T]): Int = ???

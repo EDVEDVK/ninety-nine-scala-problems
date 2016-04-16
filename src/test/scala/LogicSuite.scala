@@ -1,3 +1,4 @@
+/*
 import S99Logic.{not => s99not, _}
 import org.scalatest.{FunSuite, Matchers}
 
@@ -131,3 +132,4 @@ class LogicSuite extends FunSuite with Matchers {
       List(('a, "0"), ('b, "101"), ('c, "100"), ('d, "111"), ('e, "1101"), ('f, "1100"))
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import S99Int._
 import org.scalatest.{FunSuite, Matchers}
 
@@ -67,3 +68,4 @@ class ArithmeticSuite extends FunSuite with Matchers {
       Map(992 ->(73, 919), 1382 ->(61, 1321), 1856 ->(67, 1789), 1928 ->(61, 1867))
   }
 }
+*/

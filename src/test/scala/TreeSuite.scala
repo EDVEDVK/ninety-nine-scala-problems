@@ -1,3 +1,4 @@
+/*
 import Tree._
 import org.scalatest.{FunSuite, Matchers}
 
@@ -238,3 +239,4 @@ class TreeSuite extends FunSuite with Matchers {
       Node("a", Node("b", Node("d"), Node("e")), Node("c", End, Node("f", Node("g"), End)))
   }
 }
+*/
