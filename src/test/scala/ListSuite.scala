@@ -56,7 +56,7 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
   test("06 find out whether an empty list is a palindrome") {
     isPalindrome(List.empty) shouldBe true
   }
-/*
+
 
   test("07 flatten a nested list structure") {
     flatten(List(List(1, 1), 2, List(3, List(5, 8)))) shouldEqual List(1, 1, 2, 3, 5, 8)
@@ -65,7 +65,7 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
   test("07 flatten an empty list") {
     flatten(List.empty) shouldBe empty
   }
-
+/*
   test("08 eliminate consecutive duplicates of list elements") {
     compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) shouldEqual List('a, 'b, 'c, 'a, 'd, 'e)
   }

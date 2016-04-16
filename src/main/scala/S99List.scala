@@ -27,7 +27,11 @@ object S99List {
 
 
   // P07
-  def flatten(l: List[Any]): List[Any] = ???
+  def flatten(l: List[Any]): List[Any] = l match {
+    case Nil => Nil
+    case (head: List[_]) :: tail => flatten(head) ++ flatten(tail)
+    case head :: tail => head :: flatten(tail)
+  }
 
   // P08
   def compress[T](l: List[T]): List[T] = ???
