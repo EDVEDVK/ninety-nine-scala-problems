@@ -62,6 +62,10 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
     flatten(List(List(1, 1), 2, List(3, List(5, 8)))) shouldEqual List(1, 1, 2, 3, 5, 8)
   }
 
+  test("07 flatten a nested list structure1") {
+    flatten(List(List(1, 1), 2, List(3, List(5, 8), List(9, 10), List(11, 12, List(13, 14, 15))))) shouldEqual List(1, 1, 2, 3, 5, 8, 9, 10, 11, 12, 13, 14, 15)
+  }
+
   test("07 flatten an empty list") {
     flatten(List.empty) shouldBe empty
   }
