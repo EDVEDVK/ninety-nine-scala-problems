@@ -12,8 +12,8 @@ object S99List {
 
   // P03
   def nth[T](pos: Int, l: List[T]): T = {
-    if (pos >= 0 && pos < l.length) l(pos)
-    else throw new NoSuchElementException
+    if (pos < 0 ) throw new IllegalArgumentException else l.dropRight(pos+1).last
+
   }
 
   // P04

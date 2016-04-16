@@ -13,7 +13,7 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
   test("02 find the penultimate element of a list") {
     penultimate(List(1, 1, 2, 3, 5, 8)) shouldBe 5
   }
-/*
+
   test("02 finding the penultimate element of a list should throw an exception if the list is too small") {
     a[NoSuchElementException] should be thrownBy penultimate(List.empty)
     a[NoSuchElementException] should be thrownBy penultimate(List(1))
@@ -31,7 +31,7 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
     a[NoSuchElementException] should be thrownBy nth(2, List.empty)
     a[NoSuchElementException] should be thrownBy nth(2, List(1, 1))
   }
-
+/*
   test("04 find the number of elements of a list") {
     s99length(List(1, 1, 2, 3, 5, 8)) shouldBe 6
   }
