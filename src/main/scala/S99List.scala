@@ -23,7 +23,8 @@ object S99List {
   def reverse[T](l: List[T]): List[T] = l.reverse
 
   // P06
-  def isPalindrome[T](l: List[T]): Boolean = ???
+  def isPalindrome[T](l: List[T]): Boolean = l == l.reverse
+
 
   // P07
   def flatten(l: List[Any]): List[Any] = ???
