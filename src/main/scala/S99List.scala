@@ -17,7 +17,7 @@ object S99List {
   }
 
   // P04
-  def length[T](l: List[T]): Int = ???
+  def length[T](l: List[T]): Int = l.length
 
   // P05
   def reverse[T](l: List[T]): List[T] = ???

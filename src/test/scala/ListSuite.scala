@@ -31,7 +31,7 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
     a[NoSuchElementException] should be thrownBy nth(2, List.empty)
     a[NoSuchElementException] should be thrownBy nth(2, List(1, 1))
   }
-/*
+
   test("04 find the number of elements of a list") {
     s99length(List(1, 1, 2, 3, 5, 8)) shouldBe 6
   }
@@ -47,7 +47,7 @@ class ListSuite extends FunSuite with Matchers with Inspectors {
   test("05 reverse an empty list") {
     reverse(List.empty) shouldBe empty
   }
-
+/*
   test("06 find out whether a list is a palindrome") {
     isPalindrome(List(1, 2, 3, 2, 1)) shouldBe true
     isPalindrome(List(1, 2, 2, 1)) shouldBe true
